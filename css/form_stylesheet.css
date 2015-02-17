@@ -1,0 +1,130 @@
+@font-face{
+	font-family: Sunn;
+	src: url('../fonts/SUNN.otf');
+}
+
+@font-face{
+	font-family: Edelsans;
+	src: url('../fonts/edelsans_regular.otf');
+}
+
+@font-face{
+	font-family: raleway;
+	src: url('../fonts/Raleway-Light.ttf');
+}
+
+@font-face{
+	font-family: "Jaapokki";
+	src: url('../fonts/Jaapokki-Regular.otf');
+}
+
+body{
+	background-image: url('../images/formBack.jpg');
+	margin:0 auto;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#logo{
+	float: left;
+	height:70px;
+	width: auto;
+	padding: 0 0 0 30px;
+}
+
+#nav{
+	padding-top: 2%;
+	height: 200px;
+	width:100%;
+	position: fixed;
+}
+
+#nav ul {
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 20px 5% 0 0;
+}
+
+#nav li{
+	float:left;
+	width:80px;
+	font-family: Calibri;
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 2px;
+	padding: 5px 0 5px 0;
+	transition:color 0.45s ease;
+}
+
+#nav li:hover{
+	color:rgb(152,152,152);
+}
+
+#selected{
+	background-color: rgba(0,0,0,0.3);
+	border: 1px;
+	border-radius: 3px;
+	color: white;
+	transition: background-color 1s ease;
+}
+
+#selected:hover{
+	background-color: rgba(152,152,152,0.3);
+	border-color:rgba(152,152,152,0.2);
+	color:rgb(192,192,192);
+}
+
+#firstblock{
+	float: left;
+	margin-top: 12em;
+	width: 100%;
+	text-align: center;
+}
+
+#form{
+	text-align: center;
+	height: 400px;
+}
+
+.field{
+	width: 20em;
+	height: 2em;
+	font-family: Raleway;
+	font-size: 1em;
+	color: #888;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+h3{
+	font-family: Sunn;
+	font-size: 5em;
+	color: white;
+	margin: 0;
+}
+
+textarea{
+	resize: none;
+	font-family: Raleway;
+	font-size: 1em;
+	width: 20em;
+}
+
+#submit{
+	text-decoration: none;
+	background: transparent;
+	border:1px solid white;
+	font-size: 1em;
+	font-family: Raleway;
+	border-radius: 3px;
+	color: white;
+}
+
+#submit:hover{
+	background-color: rgb(192,192,192);
+}

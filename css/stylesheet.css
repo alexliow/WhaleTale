@@ -1,0 +1,197 @@
+@font-face{
+	font-family: Sunn;
+	src: url('../fonts/SUNN.otf');
+}
+
+@font-face{
+	font-family: Edelsans;
+	src: url('../fonts/edelsans_regular.otf');
+}
+
+@font-face{
+	font-family: raleway;
+	src: url('../fonts/Raleway-Light.ttf');
+}
+
+@font-face{
+	font-family: "Jaapokki";
+	src: url('../fonts/Jaapokki-Regular.otf');
+}
+
+body{
+	background-image: url('../images/back.jpg');
+	margin:0 auto;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#logo{
+	float: left;
+	height:70px;
+	width: auto;
+	padding: 0 0 0 30px;
+}
+
+#nav{
+	padding-top: 2%;
+	height: 200px;
+	width:100%;
+	position: fixed;
+}
+
+#nav ul {
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 20px 5% 0 0;
+}
+
+#nav li{
+	float:left;
+	width:80px;
+	font-family: Calibri;
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 2px;
+	padding: 5px 0 5px 0;
+	transition:color 0.45s ease;
+}
+
+#nav li:hover{
+	color:rgb(152,152,152);
+}
+
+#selected{
+	background-color: rgba(0,0,0,0.3);
+	border: 1px;
+	border-radius: 3px;
+	color: white;
+	transition: background-color 1s ease;
+}
+
+#selected:hover{
+	background-color: rgba(152,152,152,0.3);
+	border-color:rgba(152,152,152,0.2);
+	color:rgb(192,192,192);
+}
+
+
+#firstblock{
+	float:left;
+	width: 100%;
+	height: 900px;
+	text-align: center;
+	font-size: 30px;
+	background-color: white;
+	/*background-image: url('../images/debo.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;*/
+}
+
+#transparentDiv{
+	float: left;
+	width:100%;
+	height: 650px;
+	margin: 0 auto;
+	background-color: transparent;
+}
+
+#example{
+	width:500px;
+}
+
+#firstblockLeft{
+	float: left;
+	width: 70%;
+	margin-top: 9em;
+}
+
+#firstblockLeft #intro{
+	font-family: Sunn;
+	color: #01bee8;
+	font-size: 3em;
+	margin: 0;
+}
+
+#firstblockLeft #sub{
+	font-family: raleway;
+	font-size: 1em;
+	line-height: 1em;
+	padding: 0 4em 0 4em;
+}
+
+#debo{
+	width: 13em;
+	float: right;
+	margin-top: 13%;
+}
+
+#button1{
+	text-align: center;
+	font-family: raleway;
+	font-size: .7em;
+	display: inline-block;
+	margin: 0 5px 0 5px;
+	padding: 5px 10px 5px 10px;
+	background-color: #ecf0f1;
+	color: #95a5a6;
+	border: 1px solid #ecf0f1;
+	border-radius: 3px;
+	transition: background-color 1s ease;
+	transition: color .5s ease;
+	transition: border-color .5s ease;
+}
+
+#button1:hover{
+	background-color: #bdc3c7;
+	border-color: #bdc3c7;
+}
+
+#button2{
+	color: white;
+	text-align: center;
+	font-family: raleway;	
+	font-size: .7em;
+	display: inline-block;
+	margin: 0 5px 0 5px;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #01bee8;
+	border-radius: 3px;
+	background-color: #01bee8;
+	transition: background-color 1s ease;
+	transition: color .5s ease;
+	transition: border-color .5s ease;
+}
+
+#button2:hover{
+	background-color: #2980b9;
+	border-color: #2980b9;
+}
+
+#button1Link{
+	text-decoration: none;
+	color: black;
+}
+
+#button2Link{
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#plus{
+	vertical-align: text-middle;
+}
+
+#subHeader{
+	font-family: Sunn;
+	text-align: justify;
+	color: white;
+	font-size: 3em;
+	float: right;
+}
