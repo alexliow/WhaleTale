@@ -19,7 +19,7 @@
 }
 
 body{
-	background-image: url('../images/formBack.jpg');
+	background-image: url('../images/postsback.jpg');
 	margin:0 auto;
 	background-size: cover;
 	background-width: 100%;
@@ -85,57 +85,121 @@ body{
 	color:rgb(192,192,192);
 }
 
+a{
+	text-decoration: none;
+	color: black;
+}
+
 #firstblock{
 	float: left;
-	margin-top: 12em;
 	width: 100%;
 	text-align: center;
 }
 
-#form{
+#container{
+	position: relative;
+	top: 80px;
+	float: left;
+	width: 100%;
+}
+
+.blockPic{
+	width: 50%;
+	height: auto;
+}
+
+.block{
+	margin: 0 auto;
 	text-align: center;
-	height: 400px;
+	width: 800px;
+	background-color: white;
+	padding: 2% 2% 2% 2%;
+	margin-top: 2%;
+	border-radius: 10px;
+}
+
+.block1{
+	margin: 0 auto;
+	text-align: center;
+	width: 800px;
+	padding: 2% 2% 2% 2%;
+	margin-top: 2%;
+	border-radius: 10px;
 }
 
 .field{
-	width: 20em;
-	height: 2em;
-	font-family: Raleway;
-	font-size: 1em;
-	padding-left: 10px;
-} 
+	font-family: Edelsans;
+	margin: 0;
+}
 
-a{
-	color: black;
-	text-decoration: none;
+.words{
+	text-align: left;
+}
+
+.descriptor{
+	font-family: Raleway;
 }
 
 h3{
 	font-family: Sunn;
 	font-size: 5em;
-	color: white;
 	margin: 0;
 }
 
-textarea{
-	resize: none;
+h1{
+	position: relative;
+	top: 100px;
+	text-align: center;
+	font-family: Sunn;
+	font-size: 7em;
+	margin: 0;
+	color: #01bee8;
+}
+
+.formField{
+	width: 20em;
+	height: 2em;
 	font-family: Raleway;
 	font-size: 1em;
-	width: 20em;
-	height: 7em;
-	padding: 10px	 0 0 10px;
+	padding-left: .5em;
+} 
+
+form{
+	padding: 0 10% 0 10%;
+	text-align: right;
+}
+
+#searchDescription{
+	float: left;
+	font-size: 2em;
+	text-align: left;
+	color: black;
+	font-family: Raleway;
 }
 
 #submit{
-	text-decoration: none;
-	background: transparent;
-	border:1px solid white;
-	font-size: 1em;
+	width: 20.8em;
 	font-family: Raleway;
-	border-radius: 3px;
-	color: white;
+	font-size: 1em;
 }
 
-#submit:hover{
-	background-color: rgb(192,192,192);
+#destroy{
+	width: 20.8em;
+	font-family: Raleway;
+	font-size: 1em;
+	background-color: #e74c3c;
+	border: 0;
+	border-radius: 5px;
+	padding: 10px 0 10px 0;
+}
+
+#destroyer{
+	text-align: center;
+}
+
+.block2{
+	margin: 0 auto;
+	text-align: center;
+	width: 800px;
+	margin-bottom: 2%;
 }

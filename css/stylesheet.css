@@ -21,22 +21,27 @@
 body{
 	background-image: url('../images/back.jpg');
 	margin:0 auto;
-  background-size: cover;
+	background-size: cover;
+	background-width: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
 #logo{
 	float: left;
-	height:70px;
-	width: auto;
-	padding: 0 0 0 30px;
+	width: 150px;
+	padding: 5px 0 0 60px;
+}
+
+#logoImg{
+	float: left;
+	width: 100%;
 }
 
 #nav{
 	padding-top: 2%;
 	height: 200px;
-	width:100%;
+	width: 100%;
 	position: fixed;
 }
 
@@ -48,6 +53,7 @@ body{
 }
 
 #nav li{
+	display: inline-block;
 	float:left;
 	width:80px;
 	font-family: Calibri;
@@ -55,11 +61,14 @@ body{
 	text-align: center;
 	letter-spacing: 2px;
 	padding: 5px 0 5px 0;
+}
+
+#nav a{
 	transition:color 0.45s ease;
 }
 
-#nav li:hover{
-	color:rgb(152,152,152);
+#nav a:hover{
+	color: #7f8c8d;
 }
 
 #selected{
@@ -105,25 +114,28 @@ body{
 #firstblockLeft{
 	float: left;
 	width: 70%;
-	margin-top: 9em;
+	margin-top: 20%;
 }
 
 #firstblockLeft #intro{
 	font-family: Sunn;
 	color: #01bee8;
 	font-size: 3em;
+	font-size: 6vw;
 	margin: 0;
 }
 
 #firstblockLeft #sub{
 	font-family: raleway;
 	font-size: 1em;
+	font-size: 2vw;
 	line-height: 1em;
 	padding: 0 4em 0 4em;
 }
 
 #debo{
 	width: 13em;
+	width: 27vw;
 	float: right;
 	margin-top: 13%;
 }
@@ -189,9 +201,9 @@ a{
 }
 
 #subHeader{
-	font-family: Sunn;
+	font-family: Raleway;
 	text-align: justify;
 	color: white;
-	font-size: 3em;
+	font-size: 2em;
 	float: right;
 }
