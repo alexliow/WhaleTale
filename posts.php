@@ -114,16 +114,16 @@
                 ?>
 
                 <div class="block">
-                    <h3><? echo $title; ?></h3>
+                    <h3><? echo htmlspecialchars($title); ?></h3>
                     
-                    <img src="<?php echo $imgUrl; ?>" class="blockPic" alt="<?php echo $title; ?>"><br><br>
+                    <img src="<?php echo htmlspecialchars($imgUrl); ?>" class="blockPic" alt="<?php echo htmlspecialchars($title); ?>"><br><br>
 
                     <div class="words">
-                        <p class="field">Poster name: <span class="descriptor"><?php echo $name; ?></span></p><br><br>
+                        <p class="field">Poster Name: <span class="descriptor"><?php echo htmlspecialchars($name); ?></span></p><br><br>
 
-                        <p class="field">Post Location: <span class="descriptor"><?php echo $location; ?></span></p><br><br>
+                        <p class="field">Post Location: <span class="descriptor"><?php echo htmlspecialchars($location); ?></span></p><br><br>
                 
-                        <p class="field">Description: <span class="descriptor"><?php echo $comment; ?></span></p><br><br>
+                        <p class="field">Description: <span class="descriptor"><?php echo htmlspecialchars($comment); ?></span></p><br><br>
                     </div>
                 </div>
                 <?php 

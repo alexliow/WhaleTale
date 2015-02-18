@@ -28,9 +28,8 @@
         </div>
 
         <div id="transparentDiv">
-            <br><br>
             <p id="subHeader">If you've traveled with me, feel free to post pictures! <br>Show everyone where we went and tell them all about it.</p>
         </div>
-
+        
     </body>
 </html>
